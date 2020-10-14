@@ -21,7 +21,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif; /* 1 */
+  font-family: "Lucida Console", Monaco, monospace; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -192,14 +192,36 @@ img, audio, video {
 */
 
 html {
+  text-align: center;
+  font-family: "Lucida Console", Monaco, monospace;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  background-color: aliceblue;
 }
 
 label {
   display: block;
+}
+
+h1{
+  font-size: 2em;
+  padding-bottom: 0.8em;
+  line-height: 1.5em;
+}
+
+p{
+  padding-bottom: 0.5em;
+}
+
+input{
+  background-color: lightgrey;
+  border: 0;
+}
+
+li{
+  padding: 1em;
 }
 
 /* ===== LAYOUT STYLES ====== */
